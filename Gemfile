@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'cancancan', '~> 1.16'
 gem 'rails_admin', '~> 1.1', '>= 1.1.1'
 gem 'remotipart', '~> 1.3', '>= 1.3.1'
 gem 'devise'
